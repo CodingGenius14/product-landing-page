@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 2.01rem;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  margin-left: 15px;
+}
+
+#logo h1 {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 35vw;
+  justify-content: space-evenly;
+}
+
+ul li {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#form-section {
+  width: 98vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 145px;
+}
+
+label {
+  font-size: 30px;
+  display: block;
+}
+
+#email {
+  width: 50%;
+  height: 17%;
+  text-align: center;
+  margin-left: 95px;
+}
+
+#submit {
+  height: 17%;
+  width: 15%;
+}
+
+input {
+  margin-top: 20px;
+}
+
+#how_it_works {
+  width: 99vw;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#features {
+  margin-left: 70px;
+  margin-top: -25px;
+  margin-bottom: 55px;
+}
+
+.container {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  height: 140px;
+  font-size: 50px;
+}
+
+.fa-music {
+  font-size: 75px;
+}
+
+.fa-dumbbell {
+  font-size: 75px;
+}
+
+.fa-ban {
+  font-size: 75px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+p {
+  margin-top: 2px;
+}
+
+#pricing {
+  display: flex;
+  margin-top: 115px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.product-price {
+  border: 1px solid black;
+  width: 22vw;
+  height: 100%;
+  padding: 10px;
+  margin-left: 25px;
+  background: linear-gradient(black, purple, blue);
+  color: white;
+}
+
+.product-price header {
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.product-price img {
+  object-fit: cover;
+  width: 100%;
+  height: 62%;
+  margin-bottom: 15px;
+}
+
+.product-price p {
+  margin-left: 10px;
+}
+
+span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  color: lightgreen;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 2rem;
+  }
+  #pricing {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .product-price {
+    width: 50vw;
+    height: 100%;
+  }
+}
